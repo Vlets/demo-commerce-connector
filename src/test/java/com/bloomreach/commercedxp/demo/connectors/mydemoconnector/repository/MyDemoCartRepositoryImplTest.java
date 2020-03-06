@@ -27,7 +27,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.bloomreach.commercedxp.api.v2.connector.form.CartEntryForm.ACTION;
+import com.bloomreach.commercedxp.api.v2.connector.form.ItemListEntryForm.*;
 import com.bloomreach.commercedxp.api.v2.connector.model.CartEntryModel;
 import com.bloomreach.commercedxp.api.v2.connector.model.CartModel;
 import com.bloomreach.commercedxp.api.v2.connector.model.SimpleItemId;

@@ -94,6 +94,16 @@ public abstract class AbstractMyDemoRepositoryTest {
             public CommerceConnectorComponent getComponentById(String id) {
                 return componentMap.get(id);
             }
+
+            @Override
+            public <T> T getContainerComponent(final Class<T> componentType) {
+                return null;
+            }
+
+            @Override
+            public <T> T getContainerComponent(final String componentId) {
+                return null;
+            }
         }).anyTimes();
         replay(connector);
         return connector;
