@@ -56,6 +56,22 @@
     </repository>
   </repositories>
 
+  <scm>
+    <connection>scm:git:https://github.com/Vlets/demo-commerce-connector.git</connection>
+    <developerConnection>scm:git:git@github.com:Vlets/demo-commerce-connector.git</developerConnection>
+    <url>https://github.com/Vlets/demo-commerce-connector</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <name>Hippo Maven 2 Private Repository</name>
+      <id>hippo-maven2-private</id>
+      <url>https://maven.onehippo.com/content/repositories/private-releases/</url>
+      <uniqueVersion>false</uniqueVersion>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
 
     <dependency>
